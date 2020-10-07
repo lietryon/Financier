@@ -1,0 +1,15 @@
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.csprojAssemblyReference.cache
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.Login_form.resources
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.Properties.Resources.resources
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.csproj.GenerateResource.cache
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\Financier.exe.config
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\Financier.exe
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\Financier.pdb
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\EntityFramework.dll
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\EntityFramework.xml
+C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.csproj.CopyComplete
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.exe
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.pdb
