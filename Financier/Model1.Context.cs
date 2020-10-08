@@ -26,5 +26,10 @@ namespace Financier
         }
     
         public virtual DbSet<Admin_Table> Admin_Table { get; set; }
+        public virtual DbSet<debit> debits { get; set; }
+        public virtual DbSet<deposit> deposits { get; set; }
+        public virtual DbSet<transfer> transfers { get; set; }
+        public virtual DbSet<userAccount> userAccounts { get; set; }
+        public virtual DbSet<userTable> userTables { get; set; }
     }
 }
