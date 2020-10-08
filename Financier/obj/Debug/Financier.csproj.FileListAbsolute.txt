@@ -13,3 +13,4 @@ C:\Users\Matthew\source\repos\Financier\Financier\bin\Debug\EntityFramework.SqlS
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.csproj.CopyComplete
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.exe
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.pdb
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.Menu.resources
