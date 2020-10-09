@@ -51,6 +51,7 @@
     <EntitySetMapping Name="userAccounts">
       <EntityTypeMapping TypeName="Financier_dbModel.userAccount">
         <MappingFragment StoreEntitySet="userAccount">
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
           <ScalarProperty Name="Date" ColumnName="Date" />
           <ScalarProperty Name="Maritial_Status" ColumnName="Maritial_Status" />
           <ScalarProperty Name="Gender" ColumnName="Gender" />

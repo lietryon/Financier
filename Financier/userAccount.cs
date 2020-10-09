@@ -22,5 +22,6 @@ namespace Financier
         public string Gender { get; set; }
         public string Maritial_Status { get; set; }
         public string Date { get; set; }
+        public byte[] Picture { get; set; }
     }
 }

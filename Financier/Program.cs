@@ -16,7 +16,7 @@ namespace Financier
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new newAccount());
+            Application.Run(new Login_form());
         }
     }
 }

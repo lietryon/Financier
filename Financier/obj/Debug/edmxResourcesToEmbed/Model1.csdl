@@ -63,6 +63,7 @@
     <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Maritial_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <EntityType Name="userTable">
     <Key>
