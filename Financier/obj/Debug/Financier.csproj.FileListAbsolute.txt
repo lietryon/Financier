@@ -17,3 +17,4 @@ C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.Menu.resou
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.newAccount.resources
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.updateForm.resources
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.depositForm.resources
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.transferForm.resources
