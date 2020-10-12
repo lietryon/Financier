@@ -64,6 +64,7 @@
     <Property Name="Maritial_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Balance" Type="Decimal" Precision="18" Scale="0" />
   </EntityType>
   <EntityType Name="userTable">
     <Key>

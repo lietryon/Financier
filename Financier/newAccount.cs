@@ -86,6 +86,7 @@ namespace Financier
             acc.Gender = gender;
             acc.Maritial_Status = m_status;
             acc.Date = datelbl.Text;
+            acc.Balance = 0;
             BSE.userAccounts.Add(acc);
             BSE.SaveChanges();
             MessageBox.Show("Account created");
