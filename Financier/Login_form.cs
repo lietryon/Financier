@@ -43,7 +43,7 @@ namespace Financier
                     if (user1.Password.Equals(password.Text))
                     {
                         Menu m1 = new Menu();
-                        m1.ShowDialog();
+                        m1.Show();
                     }
                     else
                     {

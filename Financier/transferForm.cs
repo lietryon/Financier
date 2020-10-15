@@ -26,6 +26,11 @@ namespace Financier
 
         private void button2_Click(object sender, EventArgs e)
         {
+            retrievedata();
+        }
+
+        private void retrievedata()
+        {
             Financier_dbEntities dbe = new Financier_dbEntities();
             decimal b = Convert.ToDecimal(fromacc.Text);
             var item = (from u in dbe.userAccounts
@@ -36,6 +41,11 @@ namespace Financier
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            savedata();
+        }
+
+        private void savedata()
         {
             Financier_dbEntities dbe = new Financier_dbEntities();
             decimal b = Convert.ToDecimal(fromacc.Text);
