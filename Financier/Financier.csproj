@@ -188,6 +188,9 @@
     <EmbeddedResource Include="updateForm.resx">
       <DependentUpon>updateForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="withdrawForm.resx">
+      <DependentUpon>withdrawForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
