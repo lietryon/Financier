@@ -39,6 +39,7 @@ namespace Financier
 
         private void savedata()
         {
+            // Save the new data
             Financier_dbEntities dbe = new Financier_dbEntities();
             newAccount newacc = new newAccount();
             debit dp = new debit();
@@ -66,13 +67,14 @@ namespace Financier
 
         private void retrievedata()
         {
+            // After clicking on Search button - retrieve data from database
             Financier_dbEntities dbe = new Financier_dbEntities();
             decimal b = Convert.ToDecimal(accnotxt.Text);
             var item = (from u in dbe.userAccounts
                         where u.Account_No == b
                         select u).FirstOrDefault();
-            nametxt.Text = item.Name;
-            currentbal.Text = Convert.ToString(item.Balance);
+            nametxt.Text = item.Name; // Search for name
+            currentbal.Text = Convert.ToString(item.Balance); // Search for current balance
         }
     }
 }

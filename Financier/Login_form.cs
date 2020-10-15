@@ -44,6 +44,7 @@ namespace Financier
                     {
                         Menu m1 = new Menu();
                         m1.Show();
+                        //TODO: Fix closing of login_form to improve memory allocation and performance of application.
                     }
                     else
                     {
