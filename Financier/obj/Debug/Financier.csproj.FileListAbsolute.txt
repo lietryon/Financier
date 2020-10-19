@@ -20,3 +20,4 @@ C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.depositFor
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.transferForm.resources
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.withdrawForm.resources
 C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.balanceSheet.resources
+C:\Users\Matthew\source\repos\Financier\Financier\obj\Debug\Financier.ChangePasswordForm.resources
