@@ -94,5 +94,49 @@ namespace Financier
             dbe.userAccounts.Remove(acc);
             dbe.SaveChanges();
         }
+
+        private void savebutton_Click(object sender, EventArgs e)
+        {
+            dbe = new Financier_dbEntities();
+            decimal accountno = Convert.ToDecimal(acctxt.Text);
+            userAccount useraccount = dbe.userAccounts.First(s => s.Account_No.Equals(accountno));
+            useraccount.Name = nametxt.Text;
+            useraccount.Date = dateTimePicker1.Value.ToString();
+            useraccount.PhoneNo = phonetxt.Text;
+            if (maleradio.Checked == true)
+            {
+                useraccount.Gender = "male";
+            }
+            else
+            {
+                if (femaleradio.Checked == true)
+                {
+                    useraccount.Gender = "female";
+                }
+            }
+            if (marriedradio.Checked == true)
+            {
+                useraccount.Maritial_Status = "married";
+            }
+            else
+            {
+                if (singleradio.Checked == true)
+                {
+                    useraccount.Maritial_Status = "single";
+                }
+            }
+            Image img = pictureBox1.Image;
+            if (img != null)
+            {
+                if (ms != null)
+                {
+                    img.Save(ms, img.RawFormat);
+                    useraccount.Picture = ms.ToArray();
+                }
+            }
+            useraccount.Country = countrytxt.Text;
+            dbe.SaveChanges();
+            MessageBox.Show("Changes Saved");
+        }
     }
 }
