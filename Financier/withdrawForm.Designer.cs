@@ -174,6 +174,7 @@
             this.Controls.Add(this.label1);
             this.Name = "withdrawForm";
             this.Text = "withdrawForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

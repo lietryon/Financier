@@ -141,6 +141,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ChangePasswordForm";
             this.Text = "ChangePasswordForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

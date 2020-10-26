@@ -173,6 +173,7 @@
             this.Controls.Add(this.datelbl);
             this.Name = "transferForm";
             this.Text = "transferForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

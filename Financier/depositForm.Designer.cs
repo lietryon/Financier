@@ -174,6 +174,7 @@
             this.Controls.Add(this.datelbl);
             this.Name = "depositForm";
             this.Text = "depositForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 
